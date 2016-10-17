@@ -7,6 +7,7 @@ autocmd FileType gitcommit setlocal spell
 set spellfile=$HOME/.vim-spell-en.utf-8.add
 
 " python http://www.fullstackpython.com/vim.html & http://stackoverflow.com/a/9172881/630752
+autocmd BufRead *.py set ts=4
 autocmd BufRead *.py set shiftwidth=4
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 autocmd BufRead *.py set nocindent
