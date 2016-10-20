@@ -4,6 +4,9 @@ syntax on
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 autocmd FileType markdown setlocal spell
 autocmd FileType gitcommit setlocal spell
+autocmd FileType python setlocal spell
+autocmd FileType javascript setlocal spell
+autocmd FileType sh setlocal spell
 set spellfile=$HOME/.vim-spell-en.utf-8.add
 
 " python http://www.fullstackpython.com/vim.html & http://stackoverflow.com/a/9172881/630752
