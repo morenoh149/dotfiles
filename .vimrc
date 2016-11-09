@@ -10,7 +10,7 @@ set spellfile=$HOME/.vim-spell-en.utf-8.add
 autocmd BufRead *.py set ts=4
 autocmd BufRead *.py set shiftwidth=4
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
-autocmd BufRead *.py set nocindent
+autocmd BufRead *.py set cindent
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 filetype plugin indent on
 
