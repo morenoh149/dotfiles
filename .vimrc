@@ -22,6 +22,9 @@ set cindent
 set cinkeys-=0#
 set indentkeys-=0#
 
+" git commit messages https://web-design-weekly.com/2013/09/01/a-better-git-commit/
+autocmd FileType gitcommit setlocal textwidth=72
+
 " misc
 set showmatch
 
