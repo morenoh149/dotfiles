@@ -8,6 +8,7 @@ alias gdc='git diff --cached'
 alias gl='git log'
 alias gs='git status -s'
 alias ls='ls -G'
+alias pmr='python manage.py runserver'
 
 # environment variables
 ## makes diffs appear at the top of the screen, and not clutter the screen
