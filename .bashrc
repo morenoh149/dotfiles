@@ -8,6 +8,7 @@ alias gdc='git diff --cached'
 alias gl='git log'
 alias gs='git status -s'
 alias ls='ls -G'
+alias pm='python manage.py'
 alias pmr='python manage.py runserver'
 
 # environment variables
