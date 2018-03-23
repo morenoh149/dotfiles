@@ -8,3 +8,4 @@ PATH=$PATH:/usr/local/sbin
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 ulimit -n 8096
+source ~/git-aliases.sh
