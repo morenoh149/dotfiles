@@ -18,8 +18,6 @@ autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 filetype plugin indent on
 
 " comment python code http://vim.wikia.com/wiki/Restoring_indent_after_typing_hash
-set cindent
-set cinkeys-=0#
 set indentkeys-=0#
 
 " git commit messages https://web-design-weekly.com/2013/09/01/a-better-git-commit/
@@ -28,3 +26,10 @@ autocmd FileType gitcommit setlocal textwidth=72
 " misc
 set showmatch
 
+set colorcolumn=80
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set list
+set number
+set autoindent
