@@ -1,0 +1,1 @@
+alias example-on='export EXAMPLE_KEY=secret; export EXAMPLE_TWO=secret;'
