@@ -45,3 +45,11 @@ iabbrev cl console.log();<Left><Left><C-o>T<
 iabbrev irl import Reactotron from 'reactotron-react-native';<C-o>T<
 iabbrev rl Reactotron.log();<Left><Left><C-o>T<
 iabbrev pdb import pdb;pdb.set_trace();<C-o>T<
+
+" reassign leader
+let mapleader = " "
+
+" switch tabs faster
+noremap <leader>h gT
+noremap <leader>l gt
+noremap <leader>t :Te<CR>
