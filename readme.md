@@ -1,7 +1,7 @@
 # Dotfiles
 
 * .vimrc - VIM configuration
-* tmux.conf - tmux configuration
+* .tmux.conf - tmux configuration
 * .bash_profile - system paths and configuration
 
 ## Usage
@@ -10,7 +10,7 @@
   * `mv .vimrc .vimrc.bkup`
   * `mv .bash_profile .bash_profile.bkup`
   * `mv .bashrc .bashrc.bkup`
-  * `mv tmux.conf tmux.conf.bkup`
+  * `mv .tmux.conf .tmux.conf.bkup`
 * Run `ln -s <path to dotfiles>/.vimrc .vimrc` to symlink files to your home directory
 * Run `ln -s <path to dotfiles>/.bash_profile .bash_profile`
 * Run `ln -s <path to dotfiles>/.bashrc .bashrc`
