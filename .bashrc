@@ -1,5 +1,7 @@
 # aliases
 alias ls='ls -G'
+
+# Django aliases
 alias pm='python manage.py'
 alias pmdb='python manage.py dbshell'
 alias pmr='python manage.py runserver'
@@ -8,21 +10,7 @@ alias pmreset='python manage.py reset_fixtures'
 alias pms='python manage.py shell'
 alias pmt='python manage.py test --keepdb'
 
-# git completion
-# git config --global alias.a "add -p"
-# git config --global alias.b branch
-# git config --global alias.bd 'branch -d'
-# git config --global alias.bm 'branch -m'
-# git config --global alias.c 'commit -v'
-# git config --global alias.co checkout
-# git config --global alias.cob 'checkout -b'
-# git config --global alias.d diff
-# git config --global alias.dc 'diff --cached'
-# git config --global alias.l log
-# git config --global alias.pl 'pull'
-# git config --global alias.ps 'push'
-# git config --global alias.s 'status -s'
-# source ~/git-completion.bash
+# git aliases
 alias gapa='git add -p'
 alias gb='git branch'
 alias gc='git commit -v'
@@ -37,3 +25,8 @@ alias gst='git status -s'
 # environment variables
 ## makes diffs appear at the top of the screen, and not clutter the screen
 export LESS='-R'
+
+# nvm for javscript/node development
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
