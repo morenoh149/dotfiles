@@ -53,3 +53,7 @@ let mapleader = " "
 noremap <leader>h gT
 noremap <leader>l gt
 noremap <leader>t :Te<CR>
+
+" map esc to capslock for macbook with touchbar
+" https://danielmiessler.com/study/vim/
+inoremap jk <ESC>

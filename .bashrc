@@ -11,6 +11,7 @@ alias pms='python manage.py shell'
 alias pmt='python manage.py test --keepdb'
 
 # git aliases
+alias ga='git add'
 alias gapa='git add -p'
 alias gb='git branch'
 alias gc='git commit -v'
