@@ -38,8 +38,7 @@ set number
 " hide files https://stackoverflow.com/a/4170907/630752
 let g:netrw_list_hide= '.*\.swp$,.*\.pyc$'
 
-" javascript abbreviations
-" technique from
+" Javascript completions
 " https://github.com/svennidal/vim-settings/blob/master/.vimrc#L176
 iabbrev cl console.log();<Left><Left><C-o>T<
 iabbrev irl import Reactotron from 'reactotron-react-native';<C-o>T<
@@ -54,6 +53,6 @@ noremap <leader>h gT
 noremap <leader>l gt
 noremap <leader>t :Te<CR>
 
-" map esc to capslock for macbook with touchbar
+" map esc to jk for macbook with touchbar
 " https://danielmiessler.com/study/vim/
 inoremap jk <ESC>
