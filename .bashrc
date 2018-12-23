@@ -1,6 +1,8 @@
 # aliases
 source ~/.aliases
 alias ls='ls -G'
+alias u='cd ..'
+alias h='cd -'
 
 # Django aliases
 alias pm='python manage.py'
@@ -12,6 +14,7 @@ alias pms='python manage.py shell'
 alias pmt='python manage.py test --keepdb'
 
 # git aliases
+alias g='git'
 alias ga='git add'
 alias gapa='git add -p'
 alias gb='git branch'
@@ -25,6 +28,7 @@ alias glo='git log --oneline'
 alias glog='git log'
 alias gp='git push'
 alias gr='git remote -v'
+alias gs="git show"
 alias gst='git status -s'
 
 # environment variables

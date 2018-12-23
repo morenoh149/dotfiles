@@ -56,3 +56,4 @@ noremap <leader>t :Te<CR>
 " map esc to jk for macbook with touchbar
 " https://danielmiessler.com/study/vim/
 inoremap jk <ESC>
+inoremap JK <ESC>
