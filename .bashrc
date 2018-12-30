@@ -43,3 +43,6 @@ export NVM_DIR="$HOME/.nvm"
 # Android config
 export ANDROID_HOME="~/Library/Android/sdk/"
 export PATH="$PATH:$ANDROID_HOME/platform-tools/"
+
+# Fastlane
+export PATH="$HOME/.fastlane/bin:$PATH"
