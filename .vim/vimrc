@@ -1,3 +1,5 @@
+" for tips see https://github.com/romainl/idiomatic-vimrc
+
 " https://robots.thoughtbot.com/opt-in-project-specific-vim-spell-checking-and-word-completion
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 autocmd FileType markdown setlocal spell
@@ -14,18 +16,20 @@ set indentkeys-=0#
 autocmd FileType gitcommit setlocal textwidth=72
 
 " misc
-set showmatch
-syntax on
-set expandtab
-set shiftwidth=2
-set softtabstop=2
-set tabstop=2
-set list
-set colorcolumn=80,119
-set autoindent
+" order matters, for python indent will be 4 via filetype, but we override it
+" with shiftwidth, etc.
 filetype plugin indent on
-set ruler
-set number
+setlocal showmatch
+syntax on
+setlocal expandtab
+setlocal shiftwidth=2
+setlocal softtabstop=2
+setlocal tabstop=2
+setlocal list
+setlocal colorcolumn=80,119
+setlocal autoindent
+setlocal ruler
+setlocal number
 
 " hide files https://stackoverflow.com/a/4170907/630752
 let g:netrw_list_hide= '.*\.swp$,.*\.pyc$,.git'
@@ -49,12 +53,3 @@ noremap <leader>t :Te<CR>
 " https://danielmiessler.com/study/vim/
 inoremap jk <ESC>
 inoremap JK <ESC>
-
-" python http://www.fullstackpython.com/vim.html & http://stackoverflow.com/a/9172881/630752
-" autocmd BufRead *.py set ts=4
-" autocmd BufRead *.py set shiftwidth=4
-autocmd BufRead *.py set ts=2
-autocmd BufRead *.py set shiftwidth=2
-autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
-autocmd BufRead *.py set cindent
-autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
