@@ -14,10 +14,10 @@
   * `mv .bash_profile .bash_profile.bkup`
   * `mv .tmux.conf .tmux.conf.bkup`
   * `mv .vimrc .vimrc.bkup`
-* Run `ln -s <path to dotfiles>/.aliases .aliases`
-* Run `ln -s <path to dotfiles>/.bashrc .bashrc`
-* Run `ln -s <path to dotfiles>/.bash_profile .bash_profile`
-* Run `ln -s <path to dotfiles>/.tmux.conf .tmux.conf`
-* Run `mkdir .vim && ln -s <path to dotfiles>/.vim/vimrc .vim/vimrc` to symlink files to your home directory
+* Run `ln -s dotfiles/.aliases .aliases`
+* Run `ln -s dotfiles/.bashrc .bashrc`
+* Run `ln -s dotfiles/.bash_profile .bash_profile`
+* Run `ln -s dotfiles/.tmux.conf .tmux.conf`
+* Run `mkdir .vim && cp -r dotfiles/.vim/ .vim` to symlink files to your home directory
 
 *OR* use the install script `sh install.sh`
